@@ -1,4 +1,4 @@
-Database.SaveResult[] rslt = Database.insert(sObjectList, true/false)
+Database.SaveResult[] rslt = Database.insert(sObjectList, allOrNone)
 For (Database.SaveResult r : rslt) {
 		//r each row of bulk insert
 }
